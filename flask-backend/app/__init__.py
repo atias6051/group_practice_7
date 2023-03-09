@@ -8,6 +8,7 @@ from .routes.pokemon import bp
 from .config import Configuration
 from .models import db
 from .seeds import seed_commands
+from .form import PokemonForm
 
 
 app = Flask(__name__)
@@ -16,7 +17,6 @@ app.config.from_object(Configuration)
 app.register_blueprint(bp, url_prefix="/api")
 db.init_app(app)
 Migrate(app, db)
-
 
 # after request code for CSRF token injection
 @app.after_request
