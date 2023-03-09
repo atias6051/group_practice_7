@@ -1,7 +1,14 @@
 
 # import statement for CSRF
 from flask_wtf.csrf import CSRFProtect, generate_csrf
+from flask import Flask, redirect
+from flask_migrate import Migrate
+import os
+from .config import Configuration
 
+
+app = Flask(__name__)
+app.config.from_object(Configuration)
 
 
 # after request code for CSRF token injection
@@ -15,3 +22,7 @@ def inject_csrf_token(response):
             'FLASK_ENV') == 'production' else None,
         httponly=True)
     return response
+
+@app.route('/')
+def index():
+    return True
