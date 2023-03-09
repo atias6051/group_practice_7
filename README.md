@@ -20,11 +20,11 @@ Your tasks for today are the following:
 
     c. Server side validation on all data that can be validated with the built-in validators in WTforms (DataRequired, Length, NumberRange, URL) https://wtforms.readthedocs.io/en/2.3.x/validators/
 
-    d. You will need to make a seed file, it does not need to have all the data from the original project, but there should be 15 seeded Pokemon, 10 seeded Items, and all of the same PokemonTypes as the express server 
+    d. You will need to make a seed file, it does not need to have all the data from the original project, but there should be 15 seeded Pokemon, 10 seeded Items, and all of the same PokemonTypes as the express server
 
     e. React frontend must have all the same functionality it did when it was connecting to the express server.
 
-    f. The way the Pokemon `moves` attribute is set up is a bit wonky, as moves is really a list/array, but it is being saved as a string. Feel free to save it as string in your flask backend as well (maybe with commas seperated values that you can split/join as needed?) 
+    f. The way the Pokemon `moves` attribute is set up is a bit wonky, as moves is really a list/array, but it is being saved as a string. Feel free to save it as string in your flask backend as well (maybe with commas seperated values that you can split/join as needed?)
 
 4. There is no solution file for this project!  (“No! Try not. Do. Or do not. There is no try.” - Master Yoda)
 
@@ -35,7 +35,7 @@ Your tasks for today are the following:
 
 2. All debugging questions will go in the online questions channel, using the formal project question asking process you have used in previous project weeks.  If you are not sure about this process, there is a reading in the Module 6 resources folder to reference!  https://github.com/appacademy/Module-6-Resources/blob/main/group_project_resources/question-procedure.md
 
-3. Once you have completed the flask server refactor (and sufficiently tested it) zip the project and submit it to your project advisor for review.  Make sure to include instructions on what we need to do to successfully start up your project!  (like run npm install, or how to run migrations and seed the database)  
+3. Once you have completed the flask server refactor (and sufficiently tested it) zip the project and submit it to your project advisor for review.  Make sure to include instructions on what we need to do to successfully start up your project!  (like run npm install, or how to run migrations and seed the database)
 
 4. If you complete the refactor by EOD, your team will get one 'freebie' question during project week (meaning you will not have to post a well formed question, you just say "Hey Project lead, we need your help on an error, we want to use our freebie!") This can be used on any error that is coming from a technology that was taugh in the curriculum (ie you can't say "Brad, implement websockets for us, its our freebie!")
 
@@ -44,4 +44,3 @@ Your tasks for today are the following:
 6. Instructional team may award additional bonus "freebie" question rewards at our discretion, like if you implement something really cool that we feel warrants it.  (example, set up a random generation script for Item seeding like the original express server does)
 
 7. Have fun!  This is great practice for the upcoming project, and you get to work with your group!
-

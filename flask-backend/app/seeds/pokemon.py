@@ -4,7 +4,7 @@ from sqlalchemy import text
 def seed_pokemon():
     pok1 = Pokemon(
         number= 1,
-        imageUrl= '/images/pokemon_snaps/1.svg',
+        image_url= '/images/pokemon_snaps/1.svg',
         name= 'Bulbasaur',
         attack= 49,
         defense= 49,
@@ -14,7 +14,7 @@ def seed_pokemon():
     )
     pok2 = Pokemon(
         number= 2,
-        imageUrl= '/images/pokemon_snaps/2.svg',
+        image_url= '/images/pokemon_snaps/2.svg',
         name= 'Ivysaur',
         attack= 62,
         defense= 63,
@@ -24,7 +24,7 @@ def seed_pokemon():
     )
     pok3 = Pokemon(
         number= 3,
-        imageUrl= '/images/pokemon_snaps/3.svg',
+        image_url= '/images/pokemon_snaps/3.svg',
         name= 'Venusaur',
         attack= 82,
         defense= 83,
@@ -34,7 +34,7 @@ def seed_pokemon():
     )
     pok4 = Pokemon(
         number= 4,
-        imageUrl= '/images/pokemon_snaps/4.svg',
+        image_url= '/images/pokemon_snaps/4.svg',
         name= 'Charmander',
         attack= 52,
         defense= 43,
@@ -44,7 +44,7 @@ def seed_pokemon():
     )
     pok5 = Pokemon(
         number= 5,
-        imageUrl= '/images/pokemon_snaps/5.svg',
+        image_url= '/images/pokemon_snaps/5.svg',
         name= 'Charmeleon',
         attack= 64,
         defense= 58,
@@ -54,7 +54,7 @@ def seed_pokemon():
     )
     pok6 = Pokemon(
         number= 6,
-        imageUrl= '/images/pokemon_snaps/6.svg',
+        image_url= '/images/pokemon_snaps/6.svg',
         name= 'Charizard',
         attack= 84,
         defense= 78,
@@ -64,7 +64,7 @@ def seed_pokemon():
     )
     pok7 = Pokemon(
         number = 7,
-        imageUrl = '/images/pokemon_snaps/7.svg',
+        image_url = '/images/pokemon_snaps/7.svg',
         name = 'Squirtle',
         attack = 48,
         defense = 65,
@@ -74,7 +74,7 @@ def seed_pokemon():
     )
     pok8 = Pokemon(
         number= 8,
-        imageUrl= '/images/pokemon_snaps/8.svg',
+        image_url= '/images/pokemon_snaps/8.svg',
         name= 'Wartortle',
         attack= 63,
         defense= 80,
@@ -96,7 +96,7 @@ def seed_pokemon():
     )
     pok10 = Pokemon(
         number= 10,
-        imageUrl= '/images/pokemon_snaps/10.svg',
+        image_url= '/images/pokemon_snaps/10.svg',
         name= 'Caterpie',
         attack= 30,
         defense= 35,
@@ -106,7 +106,7 @@ def seed_pokemon():
     )
     pok11 = Pokemon(
         number= 12,
-        imageUrl= '/images/pokemon_snaps/12.svg',
+        image_url= '/images/pokemon_snaps/12.svg',
         name= 'Butterfree',
         attack= 45,
         defense= 50,
@@ -117,7 +117,7 @@ def seed_pokemon():
 
     pok12 = Pokemon(
         number= 13,
-        imageUrl= '/images/pokemon_snaps/13.svg',
+        image_url= '/images/pokemon_snaps/13.svg',
         name= 'Weedle',
         attack= 35,
         defense= 30,
@@ -127,7 +127,7 @@ def seed_pokemon():
     )
     pok13 = Pokemon(
         number= 16,
-        imageUrl= '/images/pokemon_snaps/16.svg',
+        image_url= '/images/pokemon_snaps/16.svg',
         name= 'Pidgey',
         attack= 45,
         defense= 40,
@@ -138,7 +138,7 @@ def seed_pokemon():
 
     pok14 = Pokemon(
         number= 17,
-        imageUrl= '/images/pokemon_snaps/17.svg',
+        image_url= '/images/pokemon_snaps/17.svg',
         name= 'Pidgeotto',
         attack= 60,
         defense= 55,
@@ -149,7 +149,7 @@ def seed_pokemon():
 
     pok15 = Pokemon(
         number= 25,
-        imageUrl= '/images/pokemon_snaps/25.svg',
+        image_url= '/images/pokemon_snaps/25.svg',
         name= 'Pikachu',
         attack= 55,
         defense= 40,
