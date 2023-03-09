@@ -14,7 +14,6 @@ const PokemonBrowser = () => {
     return state.pokemon.list.map(pokemonId => state.pokemon[pokemonId]);
   });
   const [showForm, setShowForm] = useState(false);
-  // console.log(`FRONT END --- NAVLINK POKE ID--------->>>>>>>>>>>>>>>>>`, pokemonId, pokemon)
 
   useEffect(() => {
     dispatch(getPokemon());

@@ -12,7 +12,7 @@ SQLAlchemy = "*"
 WTForms = "*"
 Flask-Migrate = "*"
 alembic = "*"
-faker = "*"
+
 
 [dev-packages]
 
