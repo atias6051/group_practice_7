@@ -1,0 +1,1 @@
+from .pokemon_type import seed_pokemon_type_table,undo_pokemon_type_table
